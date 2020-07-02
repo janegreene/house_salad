@@ -1,5 +1,11 @@
 # House Salad Base
 
+###Refactor Exercise
+To prevent sending a hash to view we made a member class to create objects out of the results.
+To collect the results we made a SearchResults PORO with a member method to find members by state.
+To connect to the API we made a service class, this class was refactored to have a connection method that can be reused if we want to collect more than one type of object from this API.
+
+
 This repo is used as a base for the Consuming API lesson taught in Backend Module 3. To complete the lesson you will need to sign-up for an API key from the [ProPublica Congress API](https://projects.propublica.org/api-docs/congress-api/).
 
 ### Versions
